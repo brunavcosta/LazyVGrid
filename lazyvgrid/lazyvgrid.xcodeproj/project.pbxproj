@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15B78E125BCA6CE00344B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B78E025BCA6CE00344B8E /* AppDelegate.swift */; };
+		F15B78E325BCA6CE00344B8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B78E225BCA6CE00344B8E /* SceneDelegate.swift */; };
+		F15B78E525BCA6CE00344B8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B78E425BCA6CE00344B8E /* ContentView.swift */; };
+		F15B78E725BCA6CF00344B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15B78E625BCA6CF00344B8E /* Assets.xcassets */; };
+		F15B78EA25BCA6CF00344B8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15B78E925BCA6CF00344B8E /* Preview Assets.xcassets */; };
+		F15B78ED25BCA6CF00344B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15B78EB25BCA6CF00344B8E /* LaunchScreen.storyboard */; };
+		F15B78F825BCA6D000344B8E /* lazyvgridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B78F725BCA6D000344B8E /* lazyvgridTests.swift */; };
+		F15B790325BCA6D000344B8E /* lazyvgridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B790225BCA6D000344B8E /* lazyvgridUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15B78F425BCA6D000344B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15B78D525BCA6CE00344B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15B78DC25BCA6CE00344B8E;
+			remoteInfo = lazyvgrid;
+		};
+		F15B78FF25BCA6D000344B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15B78D525BCA6CE00344B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15B78DC25BCA6CE00344B8E;
+			remoteInfo = lazyvgrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15B78DD25BCA6CE00344B8E /* lazyvgrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazyvgrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B78E025BCA6CE00344B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15B78E225BCA6CE00344B8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F15B78E425BCA6CE00344B8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F15B78E625BCA6CF00344B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15B78E925BCA6CF00344B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F15B78EC25BCA6CF00344B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15B78EE25BCA6CF00344B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15B78F325BCA6D000344B8E /* lazyvgridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lazyvgridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B78F725BCA6D000344B8E /* lazyvgridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyvgridTests.swift; sourceTree = "<group>"; };
+		F15B78F925BCA6D000344B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15B78FE25BCA6D000344B8E /* lazyvgridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lazyvgridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B790225BCA6D000344B8E /* lazyvgridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyvgridUITests.swift; sourceTree = "<group>"; };
+		F15B790425BCA6D000344B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15B78DA25BCA6CE00344B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78F025BCA6D000344B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78FB25BCA6D000344B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15B78D425BCA6CE00344B8E = {
+			isa = PBXGroup;
+			children = (
+				F15B78DF25BCA6CE00344B8E /* lazyvgrid */,
+				F15B78F625BCA6D000344B8E /* lazyvgridTests */,
+				F15B790125BCA6D000344B8E /* lazyvgridUITests */,
+				F15B78DE25BCA6CE00344B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15B78DE25BCA6CE00344B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15B78DD25BCA6CE00344B8E /* lazyvgrid.app */,
+				F15B78F325BCA6D000344B8E /* lazyvgridTests.xctest */,
+				F15B78FE25BCA6D000344B8E /* lazyvgridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15B78DF25BCA6CE00344B8E /* lazyvgrid */ = {
+			isa = PBXGroup;
+			children = (
+				F15B78E025BCA6CE00344B8E /* AppDelegate.swift */,
+				F15B78E225BCA6CE00344B8E /* SceneDelegate.swift */,
+				F15B78E425BCA6CE00344B8E /* ContentView.swift */,
+				F15B78E625BCA6CF00344B8E /* Assets.xcassets */,
+				F15B78EB25BCA6CF00344B8E /* LaunchScreen.storyboard */,
+				F15B78EE25BCA6CF00344B8E /* Info.plist */,
+				F15B78E825BCA6CF00344B8E /* Preview Content */,
+			);
+			path = lazyvgrid;
+			sourceTree = "<group>";
+		};
+		F15B78E825BCA6CF00344B8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F15B78E925BCA6CF00344B8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F15B78F625BCA6D000344B8E /* lazyvgridTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15B78F725BCA6D000344B8E /* lazyvgridTests.swift */,
+				F15B78F925BCA6D000344B8E /* Info.plist */,
+			);
+			path = lazyvgridTests;
+			sourceTree = "<group>";
+		};
+		F15B790125BCA6D000344B8E /* lazyvgridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15B790225BCA6D000344B8E /* lazyvgridUITests.swift */,
+				F15B790425BCA6D000344B8E /* Info.plist */,
+			);
+			path = lazyvgridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15B78DC25BCA6CE00344B8E /* lazyvgrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15B790725BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgrid" */;
+			buildPhases = (
+				F15B78D925BCA6CE00344B8E /* Sources */,
+				F15B78DA25BCA6CE00344B8E /* Frameworks */,
+				F15B78DB25BCA6CE00344B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazyvgrid;
+			productName = lazyvgrid;
+			productReference = F15B78DD25BCA6CE00344B8E /* lazyvgrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15B78F225BCA6D000344B8E /* lazyvgridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15B790A25BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgridTests" */;
+			buildPhases = (
+				F15B78EF25BCA6D000344B8E /* Sources */,
+				F15B78F025BCA6D000344B8E /* Frameworks */,
+				F15B78F125BCA6D000344B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15B78F525BCA6D000344B8E /* PBXTargetDependency */,
+			);
+			name = lazyvgridTests;
+			productName = lazyvgridTests;
+			productReference = F15B78F325BCA6D000344B8E /* lazyvgridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15B78FD25BCA6D000344B8E /* lazyvgridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15B790D25BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgridUITests" */;
+			buildPhases = (
+				F15B78FA25BCA6D000344B8E /* Sources */,
+				F15B78FB25BCA6D000344B8E /* Frameworks */,
+				F15B78FC25BCA6D000344B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15B790025BCA6D000344B8E /* PBXTargetDependency */,
+			);
+			name = lazyvgridUITests;
+			productName = lazyvgridUITests;
+			productReference = F15B78FE25BCA6D000344B8E /* lazyvgridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15B78D525BCA6CE00344B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F15B78DC25BCA6CE00344B8E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F15B78F225BCA6D000344B8E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F15B78DC25BCA6CE00344B8E;
+					};
+					F15B78FD25BCA6D000344B8E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F15B78DC25BCA6CE00344B8E;
+					};
+				};
+			};
+			buildConfigurationList = F15B78D825BCA6CE00344B8E /* Build configuration list for PBXProject "lazyvgrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15B78D425BCA6CE00344B8E;
+			productRefGroup = F15B78DE25BCA6CE00344B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15B78DC25BCA6CE00344B8E /* lazyvgrid */,
+				F15B78F225BCA6D000344B8E /* lazyvgridTests */,
+				F15B78FD25BCA6D000344B8E /* lazyvgridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15B78DB25BCA6CE00344B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15B78ED25BCA6CF00344B8E /* LaunchScreen.storyboard in Resources */,
+				F15B78EA25BCA6CF00344B8E /* Preview Assets.xcassets in Resources */,
+				F15B78E725BCA6CF00344B8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78F125BCA6D000344B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78FC25BCA6D000344B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15B78D925BCA6CE00344B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15B78E125BCA6CE00344B8E /* AppDelegate.swift in Sources */,
+				F15B78E325BCA6CE00344B8E /* SceneDelegate.swift in Sources */,
+				F15B78E525BCA6CE00344B8E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78EF25BCA6D000344B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15B78F825BCA6D000344B8E /* lazyvgridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B78FA25BCA6D000344B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15B790325BCA6D000344B8E /* lazyvgridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15B78F525BCA6D000344B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15B78DC25BCA6CE00344B8E /* lazyvgrid */;
+			targetProxy = F15B78F425BCA6D000344B8E /* PBXContainerItemProxy */;
+		};
+		F15B790025BCA6D000344B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15B78DC25BCA6CE00344B8E /* lazyvgrid */;
+			targetProxy = F15B78FF25BCA6D000344B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15B78EB25BCA6CF00344B8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15B78EC25BCA6CF00344B8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15B790525BCA6D000344B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15B790625BCA6D000344B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15B790825BCA6D000344B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"lazyvgrid/Preview Content\"";
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = lazyvgrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15B790925BCA6D000344B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"lazyvgrid/Preview Content\"";
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = lazyvgrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F15B790B25BCA6D000344B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = lazyvgridTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lazyvgrid.app/lazyvgrid";
+			};
+			name = Debug;
+		};
+		F15B790C25BCA6D000344B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = lazyvgridTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lazyvgrid.app/lazyvgrid";
+			};
+			name = Release;
+		};
+		F15B790E25BCA6D000344B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = lazyvgridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lazyvgrid;
+			};
+			name = Debug;
+		};
+		F15B790F25BCA6D000344B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = lazyvgridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.lazyvgridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lazyvgrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15B78D825BCA6CE00344B8E /* Build configuration list for PBXProject "lazyvgrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15B790525BCA6D000344B8E /* Debug */,
+				F15B790625BCA6D000344B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15B790725BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15B790825BCA6D000344B8E /* Debug */,
+				F15B790925BCA6D000344B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15B790A25BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15B790B25BCA6D000344B8E /* Debug */,
+				F15B790C25BCA6D000344B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15B790D25BCA6D000344B8E /* Build configuration list for PBXNativeTarget "lazyvgridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15B790E25BCA6D000344B8E /* Debug */,
+				F15B790F25BCA6D000344B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15B78D525BCA6CE00344B8E /* Project object */;
+}
